@@ -3,6 +3,10 @@
  A C# Code to help you integerate Voided.To Auth system to your own tools
 
 ## Getting Started
+You will need to add referenc for :
+# - Newtonsoft.Json
+# - JWT
+## Preferance
 as you see in Program.cs there is this Line
 ```C#
 List<string> requiredRankMinimum = new List<string> { "vip", "exclusive", "cosmo" };
