@@ -4,8 +4,8 @@
 
 ## Getting Started
 You will need to add referenc for :
-# - Newtonsoft.Json
-# - JWT
+### - Newtonsoft.Json
+### - JWT
 ## Preferance
 as you see in Program.cs there is this Line
 ```C#
