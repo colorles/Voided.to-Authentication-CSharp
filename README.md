@@ -1,24 +1,19 @@
-# Invisible-Recaptcha-Bypass By C911
+# Voided.to Authentication CSharp By C911
 
- A python Library to bypass any invisible captcha on any site
+ A C# Code to help you integerate Voided.To Auth system to your own tools
 
 ## Getting Started
-put the Recap.py file inside your script folder and import it
-
-## How To Use
-```PYTHON
-import Recap911
-
-posturl=''
-geturl=''
-
-captcharesults=Recap911.BypassInvisable(geturl,posturl)
-
-print(captcharesults)
-
->>> 03AFcWeA4pkQ96Un147jLMind3erFmn2UeyZOrN7Zd6NDwwQDP4xxzP7eql8b..........
+as you see in Program.cs there is this Line
+```C#
+List<string> requiredRankMinimum = new List<string> { "vip", "exclusive", "cosmo" };
 ```
-
+This is the allowed Ranks that are allowed to use the software you're building (You can change that depending on your Desire or Admins Consult)
+## Signs of Passing the auth system
+```C#
+bool authed = false;
+```
+At the end if a user is authed with no issues with Variable will be set to "True" as a Boolean
+there is also a a log print to console for User is authed or any other conditions
 ## Authors
 
     Colorles911
