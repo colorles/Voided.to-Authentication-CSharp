@@ -3,7 +3,7 @@
  A C# Code to help you integerate Voided.To Auth system to your own tools
 
 ## Getting Started
-You will need to add referenc for :
+You will need to add reference for :
 ### - Newtonsoft.Json
 ### - JWT
 ## Preferance
